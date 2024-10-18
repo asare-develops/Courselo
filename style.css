@@ -24,6 +24,28 @@ main {
   background-color: #f6f6ee;
 }
 
+a:link {
+  color: #7a7878;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:visited {
+  color: #7a7878;
+}
+
+a:focus {
+  color: #7a7878;
+}
+
+a:hover {
+  color: #7a7878;
+}
+
+a:active {
+  color: #7a7878;
+}
+
 h1 {
   font-size: 60px;
   margin-bottom: 20px;
