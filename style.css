@@ -364,4 +364,143 @@ li {
   background-color: #1b1a20;
   color: #fffffd;
   font-weight: bold;
+  margin-bottom: 100px;
+}
+
+.mentor-section {
+  padding-right: 70px;
+}
+
+.mentor-sec-header {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.ms {
+  width: 50%;
+}
+
+#ms-h3 {
+  font-size: 50px;
+}
+
+#ms-p {
+  line-height: 22px;
+  color: #7a7878;
+}
+
+.mentors-gallery {
+  margin-bottom: 100px;
+  display: flex;
+  gap: 15px;
+}
+
+.mentor-card {
+  width: 25%;
+  height: 300px;
+  border: 2px solid red;
+  border-radius: 5px;
+  /* display: flex; */
+  /* justify-content: center;
+  flex-direction: column; */
+}
+
+.mentor-card h4,
+p {
+  margin: 10px 7.031px;
+}
+
+.mentor-card p {
+  color: #7a7878;
+}
+
+.mentor-img-container {
+  width: 95%;
+  height: 60%;
+  border: 2px solid brown;
+  background-color: #f394b6;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+#port-1 {
+  background-image: url(port-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#port-2 {
+  background-image: url(port-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#port-3 {
+  background-image: url(port-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#port-4 {
+  background-image: url(port-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* .mentor-sec-header h3,
+p {
+  width: 50%;
+} */
+
+/* WHY SECTION */
+.why {
+  display: flex;
+  gap: 50px;
+  height: 800px;
+}
+
+.why-img {
+  width: 50%;
+  border: 2px solid green;
+}
+
+.why-cards {
+  width: 50%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+
+.why-card {
+  width: 45%;
+  height: 25%;
+  border: 2px solid brown;
+  background-color: #f394b6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 10px 10px;
+}
+
+.why-card-content {
+  border: 1px solid black;
+  margin: 10px;
+  width: 90%;
+  height: 90%;
+}
+
+.why-card-content img,
+h5 {
+  margin-bottom: 10px;
+}
+
+.why-card-content h5 {
+  font-size: 20px;
+}
+.why-card-content p {
+  color: #7a7878;
 }
