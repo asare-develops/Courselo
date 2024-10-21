@@ -7,6 +7,14 @@
   font-family: roboto;
 }
 
+body {
+  background-color: #f6f6ee;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -20,7 +28,8 @@ header {
 
 main {
   padding-left: 70px;
-  height: 100vh;
+  /* height: 100vh; */
+  height: 100%;
   background-color: #f6f6ee;
 }
 
@@ -329,6 +338,7 @@ li {
 .course-description {
   margin-bottom: 20px;
   font-weight: 600;
+  text-wrap: nowrap;
 }
 
 .price-enroll {
@@ -398,7 +408,7 @@ li {
 .mentor-card {
   width: 25%;
   height: 300px;
-  border: 2px solid red;
+  border: 2px solid #cec3c3;
   border-radius: 5px;
   /* display: flex; */
   /* justify-content: center;
@@ -417,10 +427,17 @@ p {
 .mentor-img-container {
   width: 95%;
   height: 60%;
-  border: 2px solid brown;
+  /* border: 2px solid #cec3c3; */
   background-color: #f394b6;
   margin: 10px auto;
   border-radius: 5px;
+}
+
+.play-course {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-left: 7.031px;
 }
 
 #port-1 {
@@ -457,50 +474,282 @@ p {
 .why {
   display: flex;
   gap: 50px;
-  height: 800px;
+  /* height: 800px; */
+  margin-bottom: 100px;
 }
 
-.why-img {
+.why-left {
   width: 50%;
-  border: 2px solid green;
+  /* height: 50%; */
+  /* border: 2px solid green; */
+  background-image: url(teammemberss.jpg);
+  background-size: cover;
+  border-radius: 5px;
 }
-
-.why-cards {
+.why-right {
   width: 50%;
-  border: 2px solid black;
-  display: flex;
-  justify-content: center;
-  /* align-items: center; */
-  flex-wrap: wrap;
-}
-
-.why-card {
-  width: 45%;
-  height: 25%;
-  border: 2px solid brown;
-  background-color: #f394b6;
+  height: 50%;
+  /* border: 2px solid black; */
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.why-icon-container {
+  width: 60px;
+  height: 60px;
+  /* border: 1px solid blue; */
+  margin-left: 7.031px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-card {
+  width: 250px;
+  height: 200px;
+  /* border: 1px solid red; */
+  background-color: #fff;
   border-radius: 5px;
-  margin: 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.why-card-content {
-  border: 1px solid black;
-  margin: 10px;
+.why-card-content-container {
   width: 90%;
-  height: 90%;
 }
 
-.why-card-content img,
-h5 {
-  margin-bottom: 10px;
+.attribute-header {
+  font-weight: bold;
 }
 
-.why-card-content h5 {
-  font-size: 20px;
-}
-.why-card-content p {
+.attribute-description {
+  font-size: 14px;
+  font-weight: bold;
   color: #7a7878;
+}
+
+/* CUSTOMER STORY HEADER */
+
+.customer-story {
+  margin-right: 70px;
+  margin-bottom: 70px;
+  /* background-color: #fff; */
+}
+
+.customer-story-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.customer-service-header h3 {
+  font-size: 50px;
+}
+.customer-service-header p {
+  margin-left: 0;
+  color: #7a7878;
+}
+
+.customer-service-arrows {
+  display: flex;
+  gap: 20px;
+}
+
+.arrows {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-arrow {
+  background: #000000;
+}
+
+.customer-story-cards {
+  display: flex;
+  gap: 10px;
+  margin-right: 70px;
+  margin-bottom: 100px;
+}
+
+.customer-story-card {
+  width: 35%;
+  height: 200px;
+  background-color: #faec72;
+  /* border: 1px solid brown; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.purple {
+  background-color: #e2b8e0;
+}
+
+.blue-green {
+  background-color: #7cddd6;
+}
+
+.csc-content {
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid purple; */
+  padding: 10px;
+  border-radius: 5px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.csc-content p {
+  margin-left: 0;
+  font-size: 14px;
+  color: #383232;
+  margin-bottom: 20px;
+}
+
+.service-reviewer {
+  display: flex;
+}
+
+.reviewer-img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.role {
+  margin: 0;
+}
+
+#name {
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+/* DOWNLOAD SECTION */
+.download {
+  text-align: center;
+  margin-right: 70px;
+  margin-bottom: 100px;
+  /* background-color: #ffffff; */
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.download p {
+  margin-bottom: 40px;
+  font-size: 14px;
+  color: #666363;
+  margin-right: 20%;
+  margin-left: 20%;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.download-btn {
+  padding: 10px 60px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
+  background-color: #1b1a1f;
+
+  border: none;
+}
+.download-btn p {
+  margin: 0;
+  color: #ffffff;
+}
+
+/* .apple {
+  background-color: #f6f6ee;
+} */
+
+/* FOOTER */
+footer {
+  padding: 70px 70px;
+  background-color: #131d1e;
+  color: #fff;
+}
+
+hr {
+  margin-bottom: 70px;
+}
+
+.footer-content-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.footer-header {
+  width: 45%;
+}
+
+/* .footer-header-paragraph {
+  width: 50%;
+} */
+
+.footer-about {
+  width: ;
+}
+
+.footer-list {
+  display: block;
+}
+
+.footer-li li {
+  display: block;
+  margin-bottom: 10px;
+  margin-right: 40px;
+}
+
+.courselo {
+  margin-right: 50px;
+  font-family: roboto;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.footer-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-child {
+  color: #fff;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#email {
+  font-weight: bold;
+  color: rgb(231, 231, 62);
+}
+
+.policy {
+  margin-right: 15px;
+}
+
+span,
+.copyright {
+  font-size: 12px;
+  font-weight: bold;
 }
